@@ -1,0 +1,23 @@
+
+/* Mobile First Breakpoints */
+@media (max-width: 480px) {
+  .hide-on-mobile { display: none; }
+  .container-lg { padding: 0 12px; }
+  h1 { font-size: 1.75rem; }
+  h2 { font-size: 1.5rem; }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .hide-on-tablet { display: none; }
+}
+
+@media (min-width: 769px) {
+  .hide-on-desktop { display: none; }
+}
+
+/* Grid Responsive */
+@media (max-width: 768px) {
+  .grid-2 { grid-template-columns: 1fr; }
+  .grid-3 { grid-template-columns: 1fr 1fr; }
+  .grid-4 { grid-template-columns: 1fr 1fr; }
+}
